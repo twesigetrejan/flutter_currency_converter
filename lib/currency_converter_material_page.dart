@@ -7,12 +7,51 @@ class CurrencyConverterPageMaterialPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Trejan inc", style: TextStyle(color: Colors.white)),
         backgroundColor: const Color.fromARGB(255, 5, 107, 68),
+        title: Image.asset(
+          'assets/logo.png',
+          fit: BoxFit.cover,
+          height: 50,
+        )
       ),
-      body: const Center(
-        child: Text("Hello "),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('0',
+             style: TextStyle(
+              fontSize: 36,
+              fontWeight: FontWeight.bold,
+              
+              )),
+          ],
+        ),
       ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
